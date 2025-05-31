@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>amir48_0 - معرفی</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Vazirmatn', sans-serif;
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #121212;
+    color: #eee;
+    transition: background-color 0.5s, color 0.5s;
+    padding: 20px;
+  }
+  .container {
+    max-width: 480px;
+    background: rgba(255 255 255 / 0.05);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 25px rgba(255 255 255 / 0.1);
+    text-align: center;
+    position: relative;
+    color: inherit;
+    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+  }
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style: none;
+    margin-bottom: 25px;
+    font-weight: 600;
+    line-height: 1.8;
+  }
+  ul li::before {
+    content: "✔️";
+    margin-left: 8px;
+  }
+  a {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #6c63ff;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgb(108 99 255 / 0.5);
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  }
+  a:hover {
+    background: #524dde;
+    box-shadow: 0 8px 20px rgb(82 77 222 / 0.8);
+  }
+  footer {
+    margin-top: 25px;
+    font-size: 0.85rem;
+    opacity: 0.5;
+  }
+  /* Theme switcher */
+  .theme-switcher {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    gap: 8px;
+  }
+  .theme-switcher button {
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .theme-switcher button:hover {
+    transform: scale(1.2);
+  }
+  .light { background: #f0f0f0; }
+  .dark { background: #121212; }
+  .neon { background: #39ff14; box-shadow: 0 0 8px #39ff14; }
+  .glass {
+    background: rgba(255 255 255 / 0.2);
+    box-shadow: 0 0 12px rgba(255 255 255 / 0.3);
+    border: 1px solid rgba(255 255 255 / 0.3);
+  }
+  /* Body themes */
+  body.light {
+    background: #f0f0f0;
+    color: #222;
+  }
+  body.light a {
+    background: #6c63ff;
+    color: #fff;
+  }
+  body.dark {
+    background: #121212;
+    color: #eee;
+  }
+  body.dark a {
+    background: #6c63ff;
+    color: #fff;
+  }
+  body.neon {
+    background: #000;
+    color: #39ff14;
+    text-shadow: 0 0 6px #39ff14;
+  }
+  body.neon a {
+    background: #39ff14;
+    color: #000;
+    box-shadow: 0 0 10px #39ff14;
+  }
+  /* اصلاح تم شیشه‌ای */
+  body.glass {
+    background: rgba(255 255 255 / 0.05);
+    color: #fff;
+    backdrop-filter: blur(8px);
+  }
+  body.glass a {
+    background: #6c63ffcc;
+    color: #fff;
+    box-shadow: 0 0 15px #6c63ffcc;
+  }
+  body.glass .container {
+    background: rgba(255 255 255 / 0.12);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(255 255 255 / 0.3);
+    border: 1px solid rgba(255 255 255 / 0.3);
+    color: #fff;
+  }
+</style>
+</head>
+<body class="dark">
+  <div class="container">
+    <div class="theme-switcher" aria-label="تغییر تم">
+      <button class="light" title="روشن" data-theme="light"></button>
+      <button class="dark" title="تاریک" data-theme="dark"></button>
+      <button class="neon" title="نئون" data-theme="neon"></button>
+      <button class="glass" title="شیشه‌ای" data-theme="glass"></button>
+    </div>
+
+    <h1>amir48_0</h1>
+    <p>
+      توسعه‌دهنده پایتون و جاوااسکریپت | متخصص دیسکورد<br />
+      عاشق ساخت ابزارهای خلاقانه و کانفیگ حرفه‌ای سرورهای دیسکورد.
+    </p>
+
+    <ul>
+      <li>کانفیگ حرفه‌ای سرور دیسکورد</li>
+      <li>ساخت و تنظیم بات‌های دیسکورد</li>
+      <li>مشاوره و مدیریت سرور</li>
+    </ul>
+
+    <a href="https://discord.gg/XfQthCVFx2" target="_blank" rel="noopener">
+      عضویت در سرور NexCord
+    </a>
+
+    <p style="margin-top: 18px;">Discord: <strong>amir48_0</strong></p>
+
+    <footer>ساخته شده توسط amir48_0</footer>
+  </div>
+
+<script>
+  const buttons = document.querySelectorAll(".theme-switcher button");
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.body.className = btn.dataset.theme;
+    });
+  });
+</script>
+</body>
+</html>
